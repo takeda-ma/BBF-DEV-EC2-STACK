@@ -7,4 +7,6 @@ node_modules
 .cdk.staging
 # CDK specific
 cdk.out/
+lib/ec2-config.yml
 cdk.context.json
+ec2-config.yml
