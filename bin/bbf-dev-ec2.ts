@@ -5,7 +5,7 @@ import { BbfDevEc2Stack } from '../lib/bbf-dev-ec2-stack';
 
 const app = new cdk.App();
 new BbfDevEc2Stack(app, 'BbfDevEc2Stack', {
-  /* THIS AN AUTOMATICALLY GENERATED FILE BY AWS CDK. DO NOT MODIFY IT BY HAND. */
+  /* THIS IS AN AUTOMATICALLY GENERATED FILE BY AWS CDK. DO NOT MODIFY IT BY HAND. */
 
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
