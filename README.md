@@ -4,8 +4,7 @@
 
 ![bbf-dev-ec2](./bbf-redis-on-ec2-devs.svg)
 
-Run whenever there is a change in CDK
-
+We need to run this whenever there is a change in IaC
 ```
 npm run build
 ```

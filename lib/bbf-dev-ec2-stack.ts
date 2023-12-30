@@ -49,15 +49,15 @@ export class BbfDevEc2Stack extends cdk.Stack {
       EC2 Instance
       Sets up an EC2 instance with a user data script to install Redis.
     */
-    const script = fs.readFileSync(`${__dirname}/redis-setup.sh`, 'utf8');
-    const ec2Config = yaml.load(fs.readFileSync(`${__dirname}/ec2-config.yml`, 'utf8')) as Ec2ConfigItem[];
+    const script = fs.readFileSync(`${__dirname}/../redis-setup.sh`, 'utf8');
+    const ec2Config = yaml.load(fs.readFileSync(`${__dirname}/../ec2-config.yml`, 'utf8')) as Ec2ConfigItem[];
 
     ec2Config.forEach((config, index) => {
       const developer = Object.keys(config)[0];
       const instanceName = config[developer]['instance-name'];
       const password = generatePassword(instanceName);
 
-      let script = fs.readFileSync(`${__dirname}/redis-setup.sh`, 'utf8');
+      let script = fs.readFileSync(`${__dirname}/../redis-setup.sh`, 'utf8');
       script = script.replace('placeholder', password);
       const userData = ec2.UserData.custom(script);
 

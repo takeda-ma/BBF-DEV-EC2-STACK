@@ -1,0 +1,12 @@
+- developer1:
+    instance-name: koki
+    options: value
+- developer2:
+    instance-name: someDev1
+    options: value
+- developer3:
+    instance-name: someDev2
+    options: value
+- developer4:
+    instance-name: someDev3
+    options: value
