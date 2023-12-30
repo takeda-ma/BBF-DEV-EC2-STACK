@@ -1,0 +1,8 @@
+- developer1:
+    instance-name: koki
+- developer2:
+    instance-name: vlad
+- developer3:
+    instance-name: zhang
+- developer4:
+    instance-name: dev4

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { BffDevEc2Stack } from '../lib/bff-dev-ec2-stack';
+import { BbfDevEc2Stack } from '../lib/bbf-dev-ec2-stack';
 
 const app = new cdk.App();
-new BffDevEc2Stack(app, 'BffDevEc2Stack', {
+new BbfDevEc2Stack(app, 'BbfDevEc2Stack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
