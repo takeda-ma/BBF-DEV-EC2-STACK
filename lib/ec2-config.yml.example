@@ -1,8 +1,12 @@
 - developer1:
     instance-name: koki
+    other-option: value
 - developer2:
     instance-name: vlad
+    other-option: value
 - developer3:
     instance-name: zhang
+    other-option: value
 - developer4:
-    instance-name: dev4
+    instance-name: tkd
+    other-option: value
