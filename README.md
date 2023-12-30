@@ -2,7 +2,7 @@
 
 <h4>Overview</h4>
 
-![bbf-dev-ec2](./redis-on-ec2-devs.svg)
+![bbf-dev-ec2](./bbf-redis-on-ec2-devs.svg)
 
 Run whenever there is a change in CDK
 
